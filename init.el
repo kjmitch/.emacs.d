@@ -72,16 +72,20 @@
 ( global-set-key ( kbd "C-c a" ) 'org-agenda )
 ( global-set-key ( kbd "C-c b" ) 'org-iswitchb )
 
+;;; Set up variables to find files in Dropbox on systems with different drive paths
+( setenv "dropbox" ( getenv "Dropbox" ) )
+( setenv "agenda" ( concat "dropbox" "/OrgFiles/agenda.org" ) )
+
 ;;; Set up Org Mode capture 
 ( global-set-key ( kbd "C-c r" ) 'org-capture )
 ( setq org-capture-templates '(
 	( "t" "Agenda ToDo" entry
-		( file-headline "C:/Org/Agenda.org" "Agenda" )
+		( file-headline "agenda" "Agenda" )
 		"\n\n** TODO %?\n%T\n\n%i\n%a\n\n\n"
 		:empty-lines 1 )
 
 	( "n" "Agenda Notes" entry
-		( file-headline "C:/Org/Agenda.org" "Agenda" )
+		( file-headline "agenda" "Agenda" )
 		"\n\n** %?\n%T\n%i\n%a\n\n\n"
 		:empty-lines 1 ) ) )
 
