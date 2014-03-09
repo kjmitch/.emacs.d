@@ -25,7 +25,7 @@
 ( setq initial-scratch-message "" )
 
 ;; Set default global font to Consolas
-( set-face=attribute 'default nil :family "Consolas" )
+( set-face-attribute 'default nil :family "Consolas" )
 
 ;; Set theme to solarized-dark from Solarized repository,
 ;;		maintained and cloned separately into ~/.emacs.d/ folder
