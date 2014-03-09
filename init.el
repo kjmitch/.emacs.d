@@ -112,6 +112,14 @@
 ( autoload 'powershell "powershell" "Run PowerShell as a shell within Emacs." t )
 
 ;;;; ------------------------------------------------------------
+;;;; Other
+;;;; ------------------------------------------------------------
+
+;; I'll re-add the call to window-control.el once I've improved the code
+;;		and functionality from http://www.emacswiki.org/emacs/ThreeWindows
+;;( load-file "~/.emacs.d/window-control.el" )
+
+;;;; ------------------------------------------------------------
 ;;;; Generated
 ;;;; ------------------------------------------------------------
 
