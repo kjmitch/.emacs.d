@@ -1,6 +1,6 @@
 # kjmitch/.emacs.d
 
-This repository contains the initialization file and other resources used by [kjmitch](https://github.com/kjmitch "My GitHub Page") to customize and extend Emacs. It can be found at [https://github.com/kjmitch/.emacs.d]
+This repository contains the initialization file and other resources used by [kjmitch](https://github.com/kjmitch "My GitHub Page") to customize and extend Emacs. The permanent home for this repository is https://github.com/kjmitch/.emacs.d and checking there may yeild a newer version.
 
 ### Necessary software
 Software needed in order to take advantage of this repository includes [Git](http://git-scm.com/downloads "Git - Downloads") and some flavor of [Emacs](http://ftpmirror.gnu.org/emacs/ "Download mirror site for Emacs"); of course the most recent version of each is preferable.
@@ -19,6 +19,6 @@ There may be others in this list at a later date. The packages themselves aren't
 **Author's note:** I'm looking for a way to have such pull requests run from the `init.el` file itself upon starting Emacs or at some regular interval, but I haven't found anything yet.
 
 ### Contact
-This is my first real Git repository/GitHub publication project, so it's probably rough around the edges. If you've got any questions, comments, or suggestions for me regarding this repository, you can send them to [kjmitch@gmail.com]. Thanks!
+This is my first real Git repository/GitHub publication project, so it's probably rough around the edges. If you've got any questions, comments, or suggestions for me regarding this repository, you can send them to kjmitch@gmail.com. Thanks!
 
 ~kjm
