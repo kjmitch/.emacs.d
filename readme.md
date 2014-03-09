@@ -7,7 +7,7 @@ This repository will create a folder named .emacs.d, so cloning should be done i
 From a prompt inside this folder, run the following commands to download the latest versions of the packages that this init depends on:
 
 git clone git://orgmode.org/org-mode.git
-git clone git://github.com/altercation/solarized.git
+git clone git://github.com/sellout/emacs-color-theme-solarized.git
 
 There may be others in this list at a later date. The packages themselves aren't added to this repository as such duplication is both excessive and unnecessary, and might prevent the inclusion of up-to-date versions of those packages. Note: I'm looking for a way to have such pull requests run by the init.el file itself upon starting Emacs or at an interval, but I haven't found anything yet.
 
